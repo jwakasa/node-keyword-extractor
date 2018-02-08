@@ -1,0 +1,26 @@
+{
+  "name": "node-keyword-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/keyword-extractor.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwakasa/node-keyword-extractor.git"
+  },
+  "keywords": [
+    "mecab",
+    "keyword extractor",
+    "keyword extraction"
+  ],
+  "author": "Junichi Wakasa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwakasa/node-keyword-extractor/issues"
+  },
+  "homepage": "https://github.com/jwakasa/node-keyword-extractor"
+}
