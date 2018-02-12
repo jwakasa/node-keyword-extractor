@@ -1,22 +1,22 @@
-# node-keyword-extractor
+## node-keyword-extractor
 [![NPM](https://nodei.co/npm/node-keyword-extractor.png)](https://nodei.co/npm/node-keyword-extractor/)
 
-# Introduction
+## Introduction
 文章からキーワードを抽出する。
 単純に形態素解析した結果だと形態素が細かくなってしまう場合があるため名詞連結を行っている。
 
-# Quick Start
-## Install
+## Quick Start
+### Install
 ```
 npm install node-keyword-extractor
 ```
-## Example
+### Example
 ```
 const keywordExtractor = require('node-keyword-extractor');
 
 keywordExtractor.parse('すもももももももものうち').then(tokens => console.log(tokens));
 ```
-## Result
+### Result
 ```
 [ { surface: 'すもも', features: '名詞,一般,*,*,*,*,すもも,スモモ' },
   { surface: 'も', features: '助詞,係助詞,*,*,*,*,も,モ' },
