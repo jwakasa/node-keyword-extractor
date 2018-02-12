@@ -1,6 +1,6 @@
 {
   "name": "node-keyword-extractor",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "",
   "main": "lib/keyword-extractor.js",
   "dependencies": {
@@ -27,8 +27,9 @@
   },
   "keywords": [
     "mecab",
-    "keyword extractor",
-    "keyword extraction"
+    "keyword",
+    "keyword-extractor",
+    "keyword-extraction"
   ],
   "author": "Junichi Wakasa",
   "license": "MIT",
